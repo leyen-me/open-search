@@ -18,7 +18,7 @@ import FaviconImage2Base64 from "@/assets/favicon/favicon_image2base64.png";
 import FaviconMdnImage from "@/assets/favicon/favicon_mdn.png";
 import FaviconMuiImage from "@/assets/favicon/favicon_mui.png";
 import FaviconCodePenImage from "@/assets/favicon/favicon_codepen.png";
-
+import FaviconTauriImage from "@/assets/favicon/favicon_tauri.png";
 
 export default [
   {
@@ -83,6 +83,12 @@ export default [
   {
     title: "应用框架",
     list: [
+      {
+        title: "Tarui",
+        desc: "构建跨平台的快速、安全、前端隔离应用",
+        icon: FaviconTauriImage,
+        link: "https://tauri.app/",
+      },
       {
         title: "Uniapp",
         desc: "Vue跨端框架",
@@ -154,7 +160,7 @@ export default [
         icon: "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico",
         link: "https://arco.design/",
       },
-     
+
       {
         title: "Vant",
         desc: "vue移动端UI组件库",
