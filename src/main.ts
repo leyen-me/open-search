@@ -12,7 +12,6 @@ import AppIcon from "@/plugins/icon.plugin";
 import locale from "element-plus/lib/locale/lang/zh-cn";
 
 // 全局样式
-import "@/styles/hover";
 import "@/styles";
 
 import App from "./App.vue";
