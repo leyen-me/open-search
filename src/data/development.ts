@@ -21,6 +21,7 @@ import FaviconCodePenImage from "@/assets/favicon/favicon_codepen.png";
 import FaviconTauriImage from "@/assets/favicon/favicon_tauri.png";
 import FaviconDogYunImage from "@/assets/favicon/favicon_dogyun.png";
 import FaviconBootstrapMbImage from "@/assets/favicon/favicon_bootstrapmb.png";
+import FaviconGodaddyImage from "@/assets/favicon/favicon_godaddy.png";
 
 export default [
     {
@@ -70,6 +71,12 @@ export default [
                 desc: "服务器厂商",
                 icon: FaviconDogYunImage,
                 link: "https://www.dogyun.com/",
+            },
+            {
+                title: "Godaddy",
+                desc: "全球最大域名商",
+                icon: FaviconGodaddyImage,
+                link: "https://www.godaddy.com/",
             },
         ],
     },

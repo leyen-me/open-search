@@ -2,6 +2,7 @@ import FaviconYouDaoYunTranslateImage from "@/assets/favicon/favicon_youdao.png"
 import FaviconDouYinImage from "@/assets/favicon/favicon_douyin.png";
 import FaviconBilibiliImage from "@/assets/favicon/favicon_bilibili.png";
 import FaviconChatgptImage from "@/assets/favicon/favicon_chatgpt.png";
+import FaviconClaudeImage from "@/assets/favicon/favicon_claude.png";
 import FaviconMidjourneyImage from "@/assets/favicon/favicon_midjourney.png";
 import FaviconSavefromImage from "@/assets/favicon/favicon_savefrom.png";
 import FaviconIiilabImage from "@/assets/favicon/favicon_iiilab.png";
@@ -17,10 +18,10 @@ export default [
         title: "常用工具",
         list: [
             {
-                title: "MyLineVscode",
-                desc: "我的在线编辑器",
+                title: "我的编程",
+                desc: "在线编程",
                 icon: FaviconCodeServerImage,
-                link: "http://206.237.30.141:8443/?folder=/config/workspace",
+                link: "http://code.lgy.one",
             },
             {
                 title: "我的博客",
@@ -100,6 +101,13 @@ export default [
                 desc: "自然语言处理最强大的模型",
                 icon: FaviconChatgptImage,
                 link: "https://chat.openai.com/chat",
+                vpn: true,
+            },
+            {
+                title: "Claude",
+                desc: "自然语言处理第二大的模型",
+                icon: FaviconClaudeImage,
+                link: "https://claude.ai/",
                 vpn: true,
             },
             {
