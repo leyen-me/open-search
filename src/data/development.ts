@@ -22,6 +22,7 @@ import FaviconTauriImage from "@/assets/favicon/favicon_tauri.png";
 import FaviconDogYunImage from "@/assets/favicon/favicon_dogyun.png";
 import FaviconBootstrapMbImage from "@/assets/favicon/favicon_bootstrapmb.png";
 import FaviconGodaddyImage from "@/assets/favicon/favicon_godaddy.png";
+import FaviconHuggingfaceImage from "@/assets/favicon/favicon_huggingface.png";
 
 export default [
     {
@@ -39,6 +40,12 @@ export default [
                 desc: "国内的代码托管平台，速度快",
                 icon: FaviconGiteeImage,
                 link: "https://gitee.com/",
+            },
+            {
+                title: "Huggingface",
+                desc: "AI社区",
+                icon: FaviconHuggingfaceImage,
+                link: "https://huggingface.co",
             },
             {
                 title: "掘金",

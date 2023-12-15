@@ -12,6 +12,7 @@ import FaviconTinyPngImage from "@/assets/favicon/favicon_tinypng.png";
 import FaviconPdfToolsImage from "@/assets/favicon/favicon_pdf_tools.png";
 import FaviconDeeplImage from "@/assets/favicon/favicon_deepl.png";
 import FaviconCodeServerImage from "@/assets/favicon/favicon_codeserver.png";
+import FaviconTermiusImage from "@/assets/favicon/favicon_termius.png";
 
 export default [
     {
@@ -73,6 +74,19 @@ export default [
                 icon: FaviconPdfToolsImage,
                 link: "https://tools.pdf24.org/zh/",
                 vpn: true
+            },
+            {
+                title: "Termius",
+                desc: "UI比较好看的终端",
+                icon: FaviconTermiusImage,
+                link: "https://termius.com/",
+                vpn: true
+            },
+            {
+                title: "IdeaCode",
+                desc: "Idea激活码",
+                icon: "",
+                link: "http://idea.955code.com/",
             },
         ],
     },
