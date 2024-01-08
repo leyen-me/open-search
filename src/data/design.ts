@@ -7,6 +7,7 @@ import FaviconMomentorImage from "@/assets/favicon/favicon_momentor.png";
 import FaviconPangmenzdImage from "@/assets/favicon/favicon_pangmenzd.png";
 import FaviconWebgradientsImage from "@/assets/favicon/favicon_webgradients.png";
 import FaviconRemoveBgImage from "@/assets/favicon/favicon_remove_bg.png";
+import FaviconAwwwardsImage from "@/assets/favicon/favicon_awwwards.png";
 
 export default [
     {
@@ -85,6 +86,13 @@ export default [
                 desc: "背景去除",
                 icon: FaviconRemoveBgImage,
                 link: "https://www.remove.bg/zh/upload",
+            },
+            {
+                title: "Awwwards",
+                desc: "高质量网站收录",
+                icon: FaviconAwwwardsImage,
+                link: "https://www.awwwards.com/",
+                vpn: true,
             },
         ],
     },

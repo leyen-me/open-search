@@ -7,29 +7,18 @@ import FaviconMidjourneyImage from "@/assets/favicon/favicon_midjourney.png";
 import FaviconSavefromImage from "@/assets/favicon/favicon_savefrom.png";
 import FaviconIiilabImage from "@/assets/favicon/favicon_iiilab.png";
 import FaviconGoogleTranslateImage from "@/assets/favicon/favicon_google_translate.png";
-import FaviconDifffffftImage from "@/assets/favicon/favicon_difffffft.png";
 import FaviconTinyPngImage from "@/assets/favicon/favicon_tinypng.png";
 import FaviconPdfToolsImage from "@/assets/favicon/favicon_pdf_tools.png";
 import FaviconDeeplImage from "@/assets/favicon/favicon_deepl.png";
-import FaviconCodeServerImage from "@/assets/favicon/favicon_codeserver.png";
 import FaviconTermiusImage from "@/assets/favicon/favicon_termius.png";
+import FaviconWildcardImage from "@/assets/favicon/favicon_wildcard.png";
+import FaviconSrtkuImage from "@/assets/favicon/favicon_srtku.png";
+import FaviconSimilarSitesImage from "@/assets/favicon/favicon_similar.png";
 
 export default [
     {
         title: "常用工具",
         list: [
-            {
-                title: "我的编程",
-                desc: "在线编程",
-                icon: FaviconCodeServerImage,
-                link: "http://code.lgy.one",
-            },
-            {
-                title: "我的博客",
-                desc: "记录生活的瞬间",
-                icon: FaviconDifffffftImage,
-                link: "http://blog.difffffft.com/",
-            },
             {
                 title: "Deepl翻译",
                 desc: "深度学习翻译",
@@ -88,6 +77,19 @@ export default [
                 icon: "",
                 link: "http://idea.955code.com/",
             },
+            {
+                title: "Wildcard",
+                desc: "海外信用卡",
+                icon: FaviconWildcardImage,
+                link: "https://bewildcard.com/",
+            },
+            {
+                title: "SimilarSites",
+                desc: "相关网站推荐",
+                icon: FaviconSimilarSitesImage,
+                link: "https://www.similarsites.com/",
+                vpn: true
+            },
         ],
     },
     {
@@ -104,6 +106,12 @@ export default [
                 desc: "国内知名的视频弹幕网站",
                 icon: FaviconBilibiliImage,
                 link: "https://www.bilibili.com/",
+            },
+            {
+                title: "弹幕库",
+                desc: "找弹幕",
+                icon: FaviconSrtkuImage,
+                link: "https://zimuku.org",
             },
         ],
     },

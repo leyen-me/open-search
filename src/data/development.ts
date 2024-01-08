@@ -23,6 +23,8 @@ import FaviconDogYunImage from "@/assets/favicon/favicon_dogyun.png";
 import FaviconBootstrapMbImage from "@/assets/favicon/favicon_bootstrapmb.png";
 import FaviconGodaddyImage from "@/assets/favicon/favicon_godaddy.png";
 import FaviconHuggingfaceImage from "@/assets/favicon/favicon_huggingface.png";
+import FaviconPrimeVueImage from "@/assets/favicon/favicon_primevue.png";
+import FaviconGsapImage from "@/assets/favicon/favicon_gsap.png";
 
 export default [
     {
@@ -204,6 +206,18 @@ export default [
                 icon: FaviconEchartsImage,
                 link: "https://echarts.apache.org/zh/index.html",
             },
+            {
+                title: "PrimeVue",
+                desc: "下一代Vue3的UI组件库",
+                icon: FaviconPrimeVueImage,
+                link: "https://primevue.org/",
+            },
+            {
+                title: "Markdown",
+                desc: "轻量级Markdown编辑器",
+                icon: FaviconVueImage,
+                link: "https://github.com/code-farmer-i/vue-markdown-editor",
+            },
         ],
     },
     {
@@ -240,6 +254,12 @@ export default [
                 desc: "网页模板",
                 icon: FaviconBootstrapMbImage,
                 link: "http://www.bootstrapmb.com/",
+            },
+            {
+                title: "Gsap",
+                desc: "前端动效库",
+                icon: FaviconGsapImage,
+                link: "https://gsap.com",
             },
         ],
     },
